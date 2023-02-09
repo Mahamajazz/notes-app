@@ -1,0 +1,26 @@
+.btn{
+    background-color: gainsboro;
+    border: none;
+    border-radius: 15px;
+    padding: 8px 10px 8px 10px;
+}
+.btn:hover{
+    background-color: rgb(238, 237, 237);
+    cursor: pointer;
+}
+
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: larger;
+}
+.fa-solid{
+    margin-right: 5px;
+    font-size: 18px;
+}
+.fa-sun{
+    color: white;
+    
+}

@@ -1,0 +1,52 @@
+.note{
+    background-color: rgb(253, 253, 157);
+    border-radius: 10px;
+    padding: 1rem;
+    min-height: 170px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    white-space: pre-wrap;
+}
+
+.note.new{
+    background-color: rgb(111, 235, 194);
+}
+
+textarea{
+    border: none;
+    resize: none;
+    background-color: rgb(111, 235, 194);
+}
+
+textarea:focus{
+    outline: none;
+}
+
+.fa-trash:hover{
+  cursor: pointer;
+  color: red;
+}
+
+.save{
+    background-color: gainsboro;
+    border: none;
+    border-radius: 15px;
+    padding: 8px 10px 8px 10px;
+}
+
+.save:hover{
+    background-color: green;
+    cursor: pointer;
+    color: white;
+}
+
+.word-count{
+    font-size: small;
+}
+
+.note-footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
